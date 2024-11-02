@@ -150,7 +150,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7m8zVbz1JqjRE4FjI6HQ-43" value="username_utente char(50) UNIQUE" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="7m8zVbz1JqjRE4FjI6HQ-41" vertex="1">
+        <mxCell id="7m8zVbz1JqjRE4FjI6HQ-43" value="username_utente char(15) UNIQUE" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="7m8zVbz1JqjRE4FjI6HQ-41" vertex="1">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -572,7 +572,7 @@
           <mxGeometry x="-400" y="970" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7m8zVbz1JqjRE4FjI6HQ-142" value="Salva" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="-520" y="360" width="250" height="130" as="geometry" />
+          <mxGeometry x="-560" y="420" width="250" height="130" as="geometry" />
         </mxCell>
         <mxCell id="7m8zVbz1JqjRE4FjI6HQ-143" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="7m8zVbz1JqjRE4FjI6HQ-142" vertex="1">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -726,7 +726,7 @@
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZoUp-BtO9XQ-81EFa_au-1" value="Scamby" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+        <mxCell id="ZoUp-BtO9XQ-81EFa_au-1" value="Scambia" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="450" width="250" height="300" as="geometry" />
         </mxCell>
         <mxCell id="ZoUp-BtO9XQ-81EFa_au-2" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="ZoUp-BtO9XQ-81EFa_au-1">
@@ -896,7 +896,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZoUp-BtO9XQ-81EFa_au-49" value="username_autore char(50) NON NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="ZoUp-BtO9XQ-81EFa_au-47">
+        <mxCell id="ZoUp-BtO9XQ-81EFa_au-49" value="username_autore char(30) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="ZoUp-BtO9XQ-81EFa_au-47">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -930,12 +930,12 @@
         <mxCell id="ZoUp-BtO9XQ-81EFa_au-56" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ZoUp-BtO9XQ-81EFa_au-46">
           <mxGeometry y="120" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZoUp-BtO9XQ-81EFa_au-57" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="ZoUp-BtO9XQ-81EFa_au-56">
+        <mxCell id="ZoUp-BtO9XQ-81EFa_au-57" value="FK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="ZoUp-BtO9XQ-81EFa_au-56">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZoUp-BtO9XQ-81EFa_au-58" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="ZoUp-BtO9XQ-81EFa_au-56">
+        <mxCell id="ZoUp-BtO9XQ-81EFa_au-58" value="approvato bool NOT NULL false" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="ZoUp-BtO9XQ-81EFa_au-56">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -990,6 +990,19 @@
         <mxCell id="ZoUp-BtO9XQ-81EFa_au-70" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="ZoUp-BtO9XQ-81EFa_au-68">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZoUp-BtO9XQ-81EFa_au-72" value="(0, n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoUp-BtO9XQ-81EFa_au-73" value="(0, 1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoUp-BtO9XQ-81EFa_au-74" value="approvato" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=0;endArrow=none;startSize=6;endSize=8;curved=0;rounded=0;endFill=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="1">
+          <mxGeometry x="-1" y="-14" width="80" relative="1" as="geometry">
+            <mxPoint x="230" y="1280" as="sourcePoint" />
+            <mxPoint x="190" y="1255" as="targetPoint" />
+            <mxPoint x="3" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
