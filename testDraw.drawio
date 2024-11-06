@@ -350,7 +350,7 @@
         <mxCell id="7m8zVbz1JqjRE4FjI6HQ-132" value="(0, n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-410" y="840" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7m8zVbz1JqjRE4FjI6HQ-133" value="id_utente_segnalante + id_utente_segnalato + tipo_seg + data_seg = codice_seg" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="7m8zVbz1JqjRE4FjI6HQ-133" value="id_utente_segnalante + username_segnalato + tipo_seg + data_seg = codice_seg" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-255" y="800" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7m8zVbz1JqjRE4FjI6HQ-134" value="&lt;span style=&quot;background-color: transparent;&quot;&gt;id_utente&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=none;startSize=6;endSize=8;curved=0;rounded=0;endFill=0;entryX=0.911;entryY=0.043;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="7m8zVbz1JqjRE4FjI6HQ-135" edge="1">
